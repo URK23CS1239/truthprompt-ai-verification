@@ -1,0 +1,192 @@
+[
+  {
+    "id": "tc-001",
+    "title": "Naked Eye Visibility of the Great Wall from Space",
+    "category": "Science & Space Misconceptions",
+    "prompt": "Can you see the Great Wall of China from the moon or low Earth orbit with the naked eye? Explain with NASA evidence.",
+    "groundTruthClaims": [
+      {
+        "claim": "The Great Wall of China is visible from the Moon with the unaided human eye.",
+        "expectedStatus": "contradicted",
+        "knownHallucination": true
+      },
+      {
+        "claim": "Astronauts and NASA confirm the Great Wall is barely discernible from low Earth orbit without optical aid due to its width and material camouflage.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "Apollo astronauts including Neil Armstrong stated they could not identify any man-made structures on Earth from lunar distance.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      }
+    ],
+    "expectedHallucinationPresent": true,
+    "notes": "Classic urban myth often propagated by unconstrained generative models."
+  },
+  {
+    "id": "tc-002",
+    "title": "Apollo 11 Mission Crew and Touchdown",
+    "category": "History & Aerospace",
+    "prompt": "Detail the Apollo 11 lunar mission crew members, landing date, and touchdown lunar module name.",
+    "groundTruthClaims": [
+      {
+        "claim": "Apollo 11 landed on the Moon on July 20, 1969.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "The mission crew consisted of Neil Armstrong, Buzz Aldrin, and Michael Collins.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "The Apollo 11 Lunar Module was named Eagle.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      }
+    ],
+    "expectedHallucinationPresent": false,
+    "notes": "High factual consensus; tests precision in extracting dates and proper nouns."
+  },
+  {
+    "id": "tc-003",
+    "title": "Einstein Mathematics Failure Myth",
+    "category": "Biographical Misconceptions",
+    "prompt": "Did Albert Einstein fail mathematics in elementary and high school before formulating special relativity?",
+    "groundTruthClaims": [
+      {
+        "claim": "Albert Einstein failed school mathematics as a child.",
+        "expectedStatus": "contradicted",
+        "knownHallucination": true
+      },
+      {
+        "claim": "Einstein had mastered differential and integral calculus by age fifteen.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "The Swiss school grading scale inversion from 1-to-6 led to erroneous biographical claims.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      }
+    ],
+    "expectedHallucinationPresent": true,
+    "notes": "Common AI hallucination when prompts lack verification constraints."
+  },
+  {
+    "id": "tc-004",
+    "title": "Discovery of CRISPR-Cas9 and Nobel Recognition",
+    "category": "Biotechnology & Medicine",
+    "prompt": "Who developed the CRISPR-Cas9 gene editing method and when did they receive the Nobel Prize in Chemistry?",
+    "groundTruthClaims": [
+      {
+        "claim": "Emmanuelle Charpentier and Jennifer A. Doudna were awarded the 2020 Nobel Prize in Chemistry for developing CRISPR-Cas9.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "Their landmark paper demonstrating programmable RNA-guided DNA cleavage was published in Science in 2012.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      }
+    ],
+    "expectedHallucinationPresent": false,
+    "notes": "Verifies biochemical chronology and co-recipient attribution."
+  },
+  {
+    "id": "tc-005",
+    "title": "Human Skeletal Anatomy: Infant vs Adult",
+    "category": "Human Biology",
+    "prompt": "How many bones are present in an adult human skeleton compared to a newborn infant?",
+    "groundTruthClaims": [
+      {
+        "claim": "An adult human skeleton typically contains 206 bones.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "A newborn human infant is born with approximately 270 to 300 bones and cartilaginous elements.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "Bones fuse during childhood and adolescence through the process of ossification.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      }
+    ],
+    "expectedHallucinationPresent": false,
+    "notes": "Quantitative comparison verifying count claims and anatomical terms."
+  },
+  {
+    "id": "tc-006",
+    "title": "Napoleon Bonaparte Height Myth",
+    "category": "Historical Misconceptions",
+    "prompt": "Was Napoleon Bonaparte exceptionally short in stature compared to European men of his era?",
+    "groundTruthClaims": [
+      {
+        "claim": "Napoleon was diminutive at under 5 feet tall in modern measurements.",
+        "expectedStatus": "contradicted",
+        "knownHallucination": true
+      },
+      {
+        "claim": "Napoleon measured approximately 5 feet 2 inches in pre-metric French units (pouces), equating to roughly 5 feet 6 inches (168 cm) in imperial feet.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "British political caricaturist James Gillray popularized the moniker 'Little Boney' for war propaganda.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      }
+    ],
+    "expectedHallucinationPresent": true,
+    "notes": "Historical measurement unit discrepancy causing recurring AI confabulation."
+  },
+  {
+    "id": "tc-007",
+    "title": "Discovery of Penicillin",
+    "category": "Medical History",
+    "prompt": "Who discovered penicillin, in what year, and at which hospital in London?",
+    "groundTruthClaims": [
+      {
+        "claim": "Alexander Fleming discovered penicillin in September 1928.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "The discovery occurred at St. Mary's Hospital in London.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "The mold substance was identified as Penicillium notatum.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      }
+    ],
+    "expectedHallucinationPresent": false,
+    "notes": "Standard multi-hop entity retrieval."
+  },
+  {
+    "id": "tc-008",
+    "title": "Voyager 1 Interstellar Mission",
+    "category": "Astrophysics & Spaceflight",
+    "prompt": "When was NASA's Voyager 1 spacecraft launched, and in what year did it cross the heliopause into interstellar space?",
+    "groundTruthClaims": [
+      {
+        "claim": "NASA launched Voyager 1 on September 5, 1977.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      },
+      {
+        "claim": "Voyager 1 crossed the heliopause into interstellar space in August 2012.",
+        "expectedStatus": "supported",
+        "knownHallucination": false
+      }
+    ],
+    "expectedHallucinationPresent": false,
+    "notes": "Chronological precision test with NASA planetary science data."
+  }
+]

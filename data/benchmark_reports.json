@@ -1,0 +1,368 @@
+[
+  {
+    "timestamp": "2026-10-30T05:35:19.427Z",
+    "totalTestCases": 8,
+    "claimExtractionPrecision": 92.3,
+    "claimExtractionRecall": 85,
+    "verificationAccuracy": 100,
+    "claimClassification": {
+      "precision": 100,
+      "recall": 100,
+      "f1Score": 100
+    },
+    "hallucinationDetection": {
+      "precision": 100,
+      "recall": 100,
+      "f1Score": 100,
+      "truePositives": 3,
+      "falsePositives": 0,
+      "trueNegatives": 5,
+      "falseNegatives": 0
+    },
+    "avgEvidenceRelevance": 93.4,
+    "avgProcessingTimeMs": 6526,
+    "promptImprovementAvgDelta": -13.4,
+    "testCases": [
+      {
+        "id": "tc-001",
+        "title": "Naked Eye Visibility of the Great Wall from Space",
+        "category": "Science & Space Misconceptions",
+        "prompt": "Can you see the Great Wall of China from the moon or low Earth orbit with the naked eye? Explain with NASA evidence.",
+        "expectedHallucination": true,
+        "detectedHallucination": true,
+        "claimsExtracted": 3,
+        "reliabilityScore": 0,
+        "passed": true,
+        "latencyMs": 11436
+      },
+      {
+        "id": "tc-002",
+        "title": "Apollo 11 Mission Crew and Touchdown",
+        "category": "History & Aerospace",
+        "prompt": "Detail the Apollo 11 lunar mission crew members, landing date, and touchdown lunar module name.",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 3,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 5167
+      },
+      {
+        "id": "tc-003",
+        "title": "Einstein Mathematics Failure Myth",
+        "category": "Biographical Misconceptions",
+        "prompt": "Did Albert Einstein fail mathematics in elementary and high school before formulating special relativity?",
+        "expectedHallucination": true,
+        "detectedHallucination": true,
+        "claimsExtracted": 3,
+        "reliabilityScore": 8,
+        "passed": true,
+        "latencyMs": 8152
+      },
+      {
+        "id": "tc-004",
+        "title": "Discovery of CRISPR-Cas9 and Nobel Recognition",
+        "category": "Biotechnology & Medicine",
+        "prompt": "Who developed the CRISPR-Cas9 gene editing method and when did they receive the Nobel Prize in Chemistry?",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 3,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 7498
+      },
+      {
+        "id": "tc-005",
+        "title": "Human Skeletal Anatomy: Infant vs Adult",
+        "category": "Human Biology",
+        "prompt": "How many bones are present in an adult human skeleton compared to a newborn infant?",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 3,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 5795
+      },
+      {
+        "id": "tc-006",
+        "title": "Napoleon Bonaparte Height Myth",
+        "category": "Historical Misconceptions",
+        "prompt": "Was Napoleon Bonaparte exceptionally short in stature compared to European men of his era?",
+        "expectedHallucination": true,
+        "detectedHallucination": true,
+        "claimsExtracted": 4,
+        "reliabilityScore": 31,
+        "passed": true,
+        "latencyMs": 6645
+      },
+      {
+        "id": "tc-007",
+        "title": "Discovery of Penicillin",
+        "category": "Medical History",
+        "prompt": "Who discovered penicillin, in what year, and at which hospital in London?",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 3,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 5305
+      },
+      {
+        "id": "tc-008",
+        "title": "Voyager 1 Interstellar Mission",
+        "category": "Astrophysics & Spaceflight",
+        "prompt": "When was NASA's Voyager 1 spacecraft launched, and in what year did it cross the heliopause into interstellar space?",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 2,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 2208
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T05:23:03.683Z",
+    "totalTestCases": 8,
+    "claimExtractionPrecision": 89.5,
+    "claimExtractionRecall": 85,
+    "verificationAccuracy": 75,
+    "claimClassification": {
+      "precision": 66.7,
+      "recall": 66.7,
+      "f1Score": 66.7
+    },
+    "hallucinationDetection": {
+      "precision": 66.7,
+      "recall": 66.7,
+      "f1Score": 66.7,
+      "truePositives": 2,
+      "falsePositives": 1,
+      "trueNegatives": 4,
+      "falseNegatives": 1
+    },
+    "avgEvidenceRelevance": 93.4,
+    "avgProcessingTimeMs": 371,
+    "promptImprovementAvgDelta": 33.6,
+    "testCases": [
+      {
+        "id": "tc-001",
+        "title": "Naked Eye Visibility of the Great Wall from Space",
+        "category": "Science & Space Misconceptions",
+        "prompt": "Can you see the Great Wall of China from the moon or low Earth orbit with the naked eye? Explain with NASA evidence.",
+        "expectedHallucination": true,
+        "detectedHallucination": true,
+        "claimsExtracted": 4,
+        "reliabilityScore": 0,
+        "passed": true,
+        "latencyMs": 294
+      },
+      {
+        "id": "tc-002",
+        "title": "Apollo 11 Mission Crew and Touchdown",
+        "category": "History & Aerospace",
+        "prompt": "Detail the Apollo 11 lunar mission crew members, landing date, and touchdown lunar module name.",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 1,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 283
+      },
+      {
+        "id": "tc-003",
+        "title": "Einstein Mathematics Failure Myth",
+        "category": "Biographical Misconceptions",
+        "prompt": "Did Albert Einstein fail mathematics in elementary and high school before formulating special relativity?",
+        "expectedHallucination": true,
+        "detectedHallucination": true,
+        "claimsExtracted": 4,
+        "reliabilityScore": 31,
+        "passed": true,
+        "latencyMs": 478
+      },
+      {
+        "id": "tc-004",
+        "title": "Discovery of CRISPR-Cas9 and Nobel Recognition",
+        "category": "Biotechnology & Medicine",
+        "prompt": "Who developed the CRISPR-Cas9 gene editing method and when did they receive the Nobel Prize in Chemistry?",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 1,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 468
+      },
+      {
+        "id": "tc-005",
+        "title": "Human Skeletal Anatomy: Infant vs Adult",
+        "category": "Human Biology",
+        "prompt": "How many bones are present in an adult human skeleton compared to a newborn infant?",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 1,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 386
+      },
+      {
+        "id": "tc-006",
+        "title": "Napoleon Bonaparte Height Myth",
+        "category": "Historical Misconceptions",
+        "prompt": "Was Napoleon Bonaparte exceptionally short in stature compared to European men of his era?",
+        "expectedHallucination": true,
+        "detectedHallucination": false,
+        "claimsExtracted": 1,
+        "reliabilityScore": 100,
+        "passed": false,
+        "latencyMs": 474
+      },
+      {
+        "id": "tc-007",
+        "title": "Discovery of Penicillin",
+        "category": "Medical History",
+        "prompt": "Who discovered penicillin, in what year, and at which hospital in London?",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 1,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 387
+      },
+      {
+        "id": "tc-008",
+        "title": "Voyager 1 Interstellar Mission",
+        "category": "Astrophysics & Spaceflight",
+        "prompt": "When was NASA's Voyager 1 spacecraft launched, and in what year did it cross the heliopause into interstellar space?",
+        "expectedHallucination": false,
+        "detectedHallucination": true,
+        "claimsExtracted": 4,
+        "reliabilityScore": 0,
+        "passed": false,
+        "latencyMs": 195
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-30T05:17:25.986Z",
+    "totalTestCases": 8,
+    "claimExtractionPrecision": 94.3,
+    "claimExtractionRecall": 85,
+    "verificationAccuracy": 75,
+    "claimClassification": {
+      "precision": 66.7,
+      "recall": 66.7,
+      "f1Score": 66.7
+    },
+    "hallucinationDetection": {
+      "precision": 66.7,
+      "recall": 66.7,
+      "f1Score": 66.7,
+      "truePositives": 2,
+      "falsePositives": 1,
+      "trueNegatives": 4,
+      "falseNegatives": 1
+    },
+    "avgEvidenceRelevance": 93.4,
+    "avgProcessingTimeMs": 49399,
+    "promptImprovementAvgDelta": 40.8,
+    "testCases": [
+      {
+        "id": "tc-001",
+        "title": "Naked Eye Visibility of the Great Wall from Space",
+        "category": "Science & Space Misconceptions",
+        "prompt": "Can you see the Great Wall of China from the moon or low Earth orbit with the naked eye? Explain with NASA evidence.",
+        "expectedHallucination": true,
+        "detectedHallucination": true,
+        "claimsExtracted": 4,
+        "reliabilityScore": 31,
+        "passed": true,
+        "latencyMs": 58049
+      },
+      {
+        "id": "tc-002",
+        "title": "Apollo 11 Mission Crew and Touchdown",
+        "category": "History & Aerospace",
+        "prompt": "Detail the Apollo 11 lunar mission crew members, landing date, and touchdown lunar module name.",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 4,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 71033
+      },
+      {
+        "id": "tc-003",
+        "title": "Einstein Mathematics Failure Myth",
+        "category": "Biographical Misconceptions",
+        "prompt": "Did Albert Einstein fail mathematics in elementary and high school before formulating special relativity?",
+        "expectedHallucination": true,
+        "detectedHallucination": true,
+        "claimsExtracted": 4,
+        "reliabilityScore": 31,
+        "passed": true,
+        "latencyMs": 1049
+      },
+      {
+        "id": "tc-004",
+        "title": "Discovery of CRISPR-Cas9 and Nobel Recognition",
+        "category": "Biotechnology & Medicine",
+        "prompt": "Who developed the CRISPR-Cas9 gene editing method and when did they receive the Nobel Prize in Chemistry?",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 8,
+        "reliabilityScore": 100,
+        "passed": true,
+        "latencyMs": 210664
+      },
+      {
+        "id": "tc-005",
+        "title": "Human Skeletal Anatomy: Infant vs Adult",
+        "category": "Human Biology",
+        "prompt": "How many bones are present in an adult human skeleton compared to a newborn infant?",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 3,
+        "reliabilityScore": 57,
+        "passed": true,
+        "latencyMs": 51397
+      },
+      {
+        "id": "tc-006",
+        "title": "Napoleon Bonaparte Height Myth",
+        "category": "Historical Misconceptions",
+        "prompt": "Was Napoleon Bonaparte exceptionally short in stature compared to European men of his era?",
+        "expectedHallucination": true,
+        "detectedHallucination": false,
+        "claimsExtracted": 3,
+        "reliabilityScore": 57,
+        "passed": false,
+        "latencyMs": 963
+      },
+      {
+        "id": "tc-007",
+        "title": "Discovery of Penicillin",
+        "category": "Medical History",
+        "prompt": "Who discovered penicillin, in what year, and at which hospital in London?",
+        "expectedHallucination": false,
+        "detectedHallucination": false,
+        "claimsExtracted": 3,
+        "reliabilityScore": 57,
+        "passed": true,
+        "latencyMs": 1068
+      },
+      {
+        "id": "tc-008",
+        "title": "Voyager 1 Interstellar Mission",
+        "category": "Astrophysics & Spaceflight",
+        "prompt": "When was NASA's Voyager 1 spacecraft launched, and in what year did it cross the heliopause into interstellar space?",
+        "expectedHallucination": false,
+        "detectedHallucination": true,
+        "claimsExtracted": 4,
+        "reliabilityScore": 31,
+        "passed": false,
+        "latencyMs": 971
+      }
+    ]
+  }
+]

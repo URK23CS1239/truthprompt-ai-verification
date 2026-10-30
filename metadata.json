@@ -1,0 +1,6 @@
+{
+  "name": "TruthPrompt - Explainable AI Hallucination Detection & Verification",
+  "description": "An explainable AI framework for factual claim extraction, evidence-based verification, hallucination detection, prompt reliability analysis, and response benchmarking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

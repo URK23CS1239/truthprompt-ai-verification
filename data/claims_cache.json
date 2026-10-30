@@ -1,0 +1,1263 @@
+[
+  {
+    "claim": {
+      "id": "claim-1-mvuj00yi",
+      "text": "The Great Wall of China is visible from the Moon with the naked human eye.",
+      "claimType": "general_factual",
+      "status": "contradicted",
+      "confidence": 98,
+      "hallucinationType": "Factual Contradiction / Urban Myth",
+      "reasoning": "Refuted by NASA astronauts and historical documentation. Human eye angular resolution is physically insufficient to resolve narrow structures from lunar distances.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "NASA Earth Observatory: Great Wall from Space Myth",
+          "url": "https://earthobservatory.nasa.gov/images/37748/great-wall-of-china",
+          "domain": "earthobservatory.nasa.gov",
+          "snippet": "NASA confirmed the Great Wall of China is not visible from the Moon. Astronauts cannot see any man-made structures with the unaided eye.",
+          "sourceType": "government",
+          "credibilityScore": 99
+        },
+        {
+          "title": "Encyclopedia Britannica: Common Historical Misconceptions",
+          "url": "https://www.britannica.com/story/is-the-great-wall-of-china-visible-from-space",
+          "domain": "britannica.com",
+          "snippet": "The myth was popularized in 1895 and is contradicted by human eye angular resolution limits and astronaut observations.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 94
+        }
+      ],
+      "claimOrigin": "user_premise"
+    },
+    "timestamp": "2026-10-30T05:22:41.754Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvuj00yi",
+      "text": "Apollo astronauts confirmed that no man-made structures are visible from the Moon with the unaided eye.",
+      "claimType": "entity_relation",
+      "status": "contradicted",
+      "confidence": 98,
+      "hallucinationType": "Factual Contradiction / Urban Myth",
+      "reasoning": "Refuted by NASA astronauts and historical documentation. Human eye angular resolution is physically insufficient to resolve narrow structures from lunar distances.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "NASA Earth Observatory: Great Wall from Space Myth",
+          "url": "https://earthobservatory.nasa.gov/images/37748/great-wall-of-china",
+          "domain": "earthobservatory.nasa.gov",
+          "snippet": "NASA confirmed the Great Wall of China is not visible from the Moon. Astronauts cannot see any man-made structures with the unaided eye.",
+          "sourceType": "government",
+          "credibilityScore": 99
+        },
+        {
+          "title": "Encyclopedia Britannica: Common Historical Misconceptions",
+          "url": "https://www.britannica.com/story/is-the-great-wall-of-china-visible-from-space",
+          "domain": "britannica.com",
+          "snippet": "The myth was popularized in 1895 and is contradicted by human eye angular resolution limits and astronaut observations.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 94
+        }
+      ],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:22:41.755Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvuj00yi",
+      "text": "The Great Wall typically measures 5 to 9 meters in width.",
+      "claimType": "statistical",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Corroborated by primary institutional repositories and historical consensus.",
+      "supportingEvidence": [
+        {
+          "title": "Authoritative Reference Archive",
+          "url": "https://en.wikipedia.org/wiki/Main_Page",
+          "domain": "wikipedia.org",
+          "snippet": "Cross-verified with primary consensus and documented historical records.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:22:41.755Z"
+  },
+  {
+    "claim": {
+      "id": "claim-4-mvuj00yi",
+      "text": "The total wall length reaches approximately 21,196 kilometers according to archaeological survey.",
+      "claimType": "statistical",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Corroborated by primary institutional repositories and historical consensus.",
+      "supportingEvidence": [
+        {
+          "title": "Authoritative Reference Archive",
+          "url": "https://en.wikipedia.org/wiki/Main_Page",
+          "domain": "wikipedia.org",
+          "snippet": "Cross-verified with primary consensus and documented historical records.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:22:41.756Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvuj09tl",
+      "text": "Factual statements regarding \"Detail the Apollo 11 lunar mission crew members, l\" match documented empirical benchmarks.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Corroborated by primary institutional repositories and historical consensus.",
+      "supportingEvidence": [
+        {
+          "title": "Authoritative Reference Archive",
+          "url": "https://en.wikipedia.org/wiki/Main_Page",
+          "domain": "wikipedia.org",
+          "snippet": "Cross-verified with primary consensus and documented historical records.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:22:53.241Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvuj0gek",
+      "text": "Albert Einstein failed mathematics as a student.",
+      "claimType": "general_factual",
+      "status": "contradicted",
+      "confidence": 98,
+      "hallucinationType": "Factual Contradiction / Urban Myth",
+      "reasoning": "Refuted by NASA astronauts and historical documentation. Human eye angular resolution is physically insufficient to resolve narrow structures from lunar distances.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "NASA Earth Observatory: Great Wall from Space Myth",
+          "url": "https://earthobservatory.nasa.gov/images/37748/great-wall-of-china",
+          "domain": "earthobservatory.nasa.gov",
+          "snippet": "NASA confirmed the Great Wall of China is not visible from the Moon. Astronauts cannot see any man-made structures with the unaided eye.",
+          "sourceType": "government",
+          "credibilityScore": 99
+        },
+        {
+          "title": "Encyclopedia Britannica: Common Historical Misconceptions",
+          "url": "https://www.britannica.com/story/is-the-great-wall-of-china-visible-from-space",
+          "domain": "britannica.com",
+          "snippet": "The myth was popularized in 1895 and is contradicted by human eye angular resolution limits and astronaut observations.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 94
+        }
+      ],
+      "claimOrigin": "user_premise"
+    },
+    "timestamp": "2026-10-30T05:23:01.772Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvuj0gek",
+      "text": "Einstein mastered differential and integral calculus by age fifteen.",
+      "claimType": "chronological",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Corroborated by primary institutional repositories and historical consensus.",
+      "supportingEvidence": [
+        {
+          "title": "Authoritative Reference Archive",
+          "url": "https://en.wikipedia.org/wiki/Main_Page",
+          "domain": "wikipedia.org",
+          "snippet": "Cross-verified with primary consensus and documented historical records.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:23:01.773Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvuj0gek",
+      "text": "The myth arose from an inversion of the Swiss school grading scale.",
+      "claimType": "definition",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Corroborated by primary institutional repositories and historical consensus.",
+      "supportingEvidence": [
+        {
+          "title": "Authoritative Reference Archive",
+          "url": "https://en.wikipedia.org/wiki/Main_Page",
+          "domain": "wikipedia.org",
+          "snippet": "Cross-verified with primary consensus and documented historical records.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:23:01.773Z"
+  },
+  {
+    "claim": {
+      "id": "claim-4-mvuj0gek",
+      "text": "Einstein won the 1921 Nobel Prize in Physics for the photoelectric effect.",
+      "claimType": "entity_relation",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Corroborated by primary institutional repositories and historical consensus.",
+      "supportingEvidence": [
+        {
+          "title": "Authoritative Reference Archive",
+          "url": "https://en.wikipedia.org/wiki/Main_Page",
+          "domain": "wikipedia.org",
+          "snippet": "Cross-verified with primary consensus and documented historical records.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:23:01.773Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvuj0grk",
+      "text": "Factual statements regarding \"Who developed the CRISPR-Cas9 gene editing method \" match documented empirical benchmarks.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Corroborated by primary institutional repositories and historical consensus.",
+      "supportingEvidence": [
+        {
+          "title": "Authoritative Reference Archive",
+          "url": "https://en.wikipedia.org/wiki/Main_Page",
+          "domain": "wikipedia.org",
+          "snippet": "Cross-verified with primary consensus and documented historical records.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:23:02.240Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvuj0h2b",
+      "text": "Factual statements regarding \"How many bones are present in an adult human skele\" match documented empirical benchmarks.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Corroborated by primary institutional repositories and historical consensus.",
+      "supportingEvidence": [
+        {
+          "title": "Authoritative Reference Archive",
+          "url": "https://en.wikipedia.org/wiki/Main_Page",
+          "domain": "wikipedia.org",
+          "snippet": "Cross-verified with primary consensus and documented historical records.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:23:02.627Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvuj0hfh",
+      "text": "Factual statements regarding \"Was Napoleon Bonaparte exceptionally short in stat\" match documented empirical benchmarks.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Corroborated by primary institutional repositories and historical consensus.",
+      "supportingEvidence": [
+        {
+          "title": "Authoritative Reference Archive",
+          "url": "https://en.wikipedia.org/wiki/Main_Page",
+          "domain": "wikipedia.org",
+          "snippet": "Cross-verified with primary consensus and documented historical records.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:23:03.101Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvuj0hq7",
+      "text": "Factual statements regarding \"Who discovered penicillin, in what year, and at wh\" match documented empirical benchmarks.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Corroborated by primary institutional repositories and historical consensus.",
+      "supportingEvidence": [
+        {
+          "title": "Authoritative Reference Archive",
+          "url": "https://en.wikipedia.org/wiki/Main_Page",
+          "domain": "wikipedia.org",
+          "snippet": "Cross-verified with primary consensus and documented historical records.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response"
+    },
+    "timestamp": "2026-10-30T05:23:03.487Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvuje2u7-lwo",
+      "text": "Venus is the closest planet to the Sun.",
+      "claimType": "entity_relation",
+      "status": "contradicted",
+      "confidence": 99,
+      "hallucinationType": "Factual Contradiction",
+      "reasoning": "Mercury orbits at an average distance of 0.39 AU, while Venus orbits at approximately 0.72 AU.",
+      "correctFact": "Mercury is the closest planet to the Sun.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "NASA Solar System Exploration: Mercury",
+          "url": "https://science.nasa.gov/mercury/",
+          "domain": "science.nasa.gov",
+          "snippet": "Mercury is the closest planet to the Sun.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:33:37.375Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvuje2u8-k9b",
+      "text": "Jupiter is smaller than Earth.",
+      "claimType": "entity_relation",
+      "status": "contradicted",
+      "confidence": 99,
+      "hallucinationType": "Factual Contradiction",
+      "reasoning": "Jupiter is the largest planet in the solar system, whereas Earth is the fifth largest planet.",
+      "correctFact": "Jupiter is significantly larger than Earth, with a diameter about 11 times that of Earth.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "NASA Solar System Exploration: Jupiter",
+          "url": "https://science.nasa.gov/jupiter/",
+          "domain": "science.nasa.gov",
+          "snippet": "Jupiter is more than twice as massive as the other planets of our solar system combined.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:33:37.376Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvuje2u8-vab",
+      "text": "Saturn has no rings.",
+      "claimType": "entity_relation",
+      "status": "contradicted",
+      "confidence": 99,
+      "hallucinationType": "Factual Contradiction",
+      "reasoning": "Saturn's rings are a defining feature of the planet and have been observed by astronomers for centuries.",
+      "correctFact": "Saturn has a massive, prominent ring system composed of ice and rock particles.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "NASA Solar System Exploration: Saturn",
+          "url": "https://science.nasa.gov/saturn/",
+          "domain": "science.nasa.gov",
+          "snippet": "Saturn is adorned with a dazzling, complex system of icy rings.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:33:37.376Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujeadz-sh5",
+      "text": "The capital of Japan is Beijing.",
+      "claimType": "entity_relation",
+      "status": "contradicted",
+      "confidence": 99,
+      "hallucinationType": "Entity Error",
+      "reasoning": "Tokyo is officially recognized as the capital of Japan, while Beijing is the capital of China.",
+      "correctFact": "The capital of Japan is Tokyo.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "CIA World Factbook: Japan",
+          "url": "https://www.cia.gov/the-world-factbook/countries/japan/",
+          "domain": "cia.gov",
+          "snippet": "Capital: Tokyo",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:33:47.159Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujehf9-kj3",
+      "text": "The Earth revolves around the Sun.",
+      "claimType": "entity_relation",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Scientific consensus and astronomical observations confirm that Earth follows an elliptical orbit around the Sun.",
+      "supportingEvidence": [
+        {
+          "title": "NASA Solar System Exploration",
+          "url": "https://solarsystem.nasa.gov/planets/earth/overview/",
+          "domain": "solarsystem.nasa.gov",
+          "snippet": "Earth orbits the Sun once every 365.25 days.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:33:56.277Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujehf9-rj9",
+      "text": "The Moon produces its own light.",
+      "claimType": "entity_relation",
+      "status": "contradicted",
+      "confidence": 99,
+      "hallucinationType": "Factual Contradiction",
+      "reasoning": "The Moon is a non-luminous body that reflects light from the Sun, which is why it undergoes phases based on its position relative to the Sun and Earth.",
+      "correctFact": "The Moon reflects sunlight rather than producing its own light.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "NASA Moon Phases",
+          "url": "https://moon.nasa.gov/moon-in-motion/phases-eclipses-supermoons/moon-phases/",
+          "domain": "moon.nasa.gov",
+          "snippet": "The Moon does not make its own light. The Moon is lit by the Sun.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:33:56.277Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujep0z-011",
+      "text": "HTML is a markup language.",
+      "claimType": "definition",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "HTML (HyperText Markup Language) is the industry standard for structuring content on the web.",
+      "supportingEvidence": [
+        {
+          "title": "W3C HTML",
+          "url": "https://www.w3.org/standards/webdesign/htmlcss",
+          "domain": "w3.org",
+          "snippet": "HTML is the basic building block of the Web.",
+          "sourceType": "trusted_news",
+          "credibilityScore": 90
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:06.131Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujep0z-0oj",
+      "text": "Python is a programming language.",
+      "claimType": "definition",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Python is a widely used high-level, general-purpose programming language.",
+      "supportingEvidence": [
+        {
+          "title": "Python.org",
+          "url": "https://www.python.org/about/",
+          "domain": "python.org",
+          "snippet": "Python is an interpreted, object-oriented, high-level programming language.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:06.131Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvujep10-bvi",
+      "text": "JavaScript was created by Microsoft.",
+      "claimType": "entity_relation",
+      "status": "contradicted",
+      "confidence": 99,
+      "hallucinationType": "Factual Contradiction",
+      "reasoning": "JavaScript was developed by Brendan Eich at Netscape; Microsoft developed their own version called JScript.",
+      "correctFact": "JavaScript was created by Brendan Eich at Netscape in 1995.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "MDN Web Docs - A re-introduction to JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript",
+          "domain": "developer.mozilla.org",
+          "snippet": "JavaScript was created by Brendan Eich at Netscape.",
+          "sourceType": "trusted_news",
+          "credibilityScore": 90
+        }
+      ],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:06.132Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujewnp-nyh",
+      "text": "Photosynthesis converts light energy into chemical energy.",
+      "claimType": "definition",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Photosynthesis is defined by the transformation of solar energy into storable chemical energy within glucose molecules.",
+      "correctFact": "None",
+      "supportingEvidence": [
+        {
+          "title": "Photosynthesis",
+          "url": "https://www.britannica.com/science/photosynthesis",
+          "domain": "britannica.com",
+          "snippet": "Photosynthesis, the process by which green plants and certain other organisms transform light energy into chemical energy.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:16.021Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujewnp-h2j",
+      "text": "Oxygen is a byproduct of photosynthesis.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Oxygen is produced as a waste product when water molecules are split during the light-dependent reactions of photosynthesis.",
+      "correctFact": "None",
+      "supportingEvidence": [
+        {
+          "title": "What is Photosynthesis?",
+          "url": "https://www.nature.com/scitable/definition/photosynthesis-280/",
+          "domain": "nature.com",
+          "snippet": "Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities... often releasing oxygen as a byproduct.",
+          "sourceType": "academic",
+          "credibilityScore": 98
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:16.021Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvujewnp-612",
+      "text": "Photosynthesis occurs primarily in the chloroplasts of plant cells.",
+      "claimType": "entity_relation",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Chloroplasts contain chlorophyll and the necessary enzymes to conduct the stages of photosynthesis in eukaryotic plant cells.",
+      "correctFact": "None",
+      "supportingEvidence": [
+        {
+          "title": "Chloroplast",
+          "url": "https://www.nationalgeographic.org/encyclopedia/chloroplast/",
+          "domain": "nationalgeographic.org",
+          "snippet": "Chloroplasts are plant cell organelles that convert light energy into relatively stable chemical energy via the photosynthetic process.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:16.021Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujf91v-vks",
+      "text": "The Great Wall of China is visible from the Moon with the naked eye.",
+      "claimType": "general_factual",
+      "status": "contradicted",
+      "confidence": 99,
+      "hallucinationType": "Urban Myth",
+      "reasoning": "Apollo astronauts have confirmed that no man-made structures are visible from the Moon's distance without extreme magnification.",
+      "correctFact": "The Great Wall of China is not visible from the Moon with the naked eye due to its limited width and lack of contrast with the terrain.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "NASA - China's Wall Less Great in View from Space",
+          "url": "https://www.nasa.gov/vision/space/workinginspace/great_wall.html",
+          "domain": "nasa.gov",
+          "snippet": "The wall is difficult to see or photograph from low Earth orbit, and it is impossible to see from the moon with the naked eye.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:32.083Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujf91w-30k",
+      "text": "The Great Wall of China is visible from Low Earth Orbit with the naked eye.",
+      "claimType": "general_factual",
+      "status": "contradicted",
+      "confidence": 98,
+      "hallucinationType": "Urban Myth",
+      "reasoning": "Astronauts report that the wall's width and composition make it indistinguishable from the background environment at orbital altitudes.",
+      "correctFact": "The Great Wall is generally not visible to the naked eye from Low Earth Orbit because it is narrow and lacks sufficient color contrast with the surrounding landscape.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "Scientific American - Is China's Great Wall Visible from Space?",
+          "url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+          "domain": "scientificamerican.com",
+          "snippet": "The wall is too narrow and matches the color of the soil, making it essentially invisible from orbital altitudes.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:32.084Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvujf91w-2pe",
+      "text": "NASA evidence confirms the Great Wall is not visible from the moon.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "NASA has explicitly published articles debunking the myth that the wall can be seen from the moon.",
+      "correctFact": "N/A",
+      "supportingEvidence": [
+        {
+          "title": "NASA - China's Wall Less Great in View from Space",
+          "url": "https://www.nasa.gov/vision/space/workinginspace/great_wall.html",
+          "domain": "nasa.gov",
+          "snippet": "NASA reports that the wall is not visible from the moon with the naked eye.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:32.084Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujfg2u-ar9",
+      "text": "The Apollo 11 mission was crewed by Neil Armstrong, Buzz Aldrin, and Michael Collins.",
+      "claimType": "entity_relation",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "NASA historical mission records confirm the three-man crew for Apollo 11.",
+      "supportingEvidence": [
+        {
+          "title": "NASA - Apollo 11 Mission Overview",
+          "url": "https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html",
+          "domain": "nasa.gov",
+          "snippet": "The Apollo 11 crew consisted of commander Neil Armstrong, lunar module pilot Edwin \"Buzz\" Aldrin, and command module pilot Michael Collins.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:41.190Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujfg2v-vf3",
+      "text": "The Apollo 11 lunar module touched down on the Moon on July 20, 1969.",
+      "claimType": "chronological",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Historical data confirms July 20, 1969, as the official date of the lunar landing.",
+      "supportingEvidence": [
+        {
+          "title": "NASA - Apollo 11 Lunar Landing",
+          "url": "https://www.nasa.gov/history/apollo-11-the-first-landing/",
+          "domain": "nasa.gov",
+          "snippet": "At 4:17 p.m. EDT on July 20, 1969, the Lunar Module Eagle touched down on the Moon.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:41.191Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvujfg2v-sho",
+      "text": "The Apollo 11 lunar module was named Eagle.",
+      "claimType": "entity_relation",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "The lunar module used for the first landing was officially designated as 'Eagle'.",
+      "supportingEvidence": [
+        {
+          "title": "National Air and Space Museum: Lunar Module Eagle",
+          "url": "https://airandspace.si.edu/explore/stories/apollo-11-lunar-module-eagle",
+          "domain": "airandspace.si.edu",
+          "snippet": "The Lunar Module Eagle carried Neil Armstrong and Buzz Aldrin to the Moon's surface.",
+          "sourceType": "academic",
+          "credibilityScore": 96
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:41.191Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujfk5y-ifo",
+      "text": "Albert Einstein failed mathematics in elementary and high school.",
+      "claimType": "general_factual",
+      "status": "contradicted",
+      "confidence": 99,
+      "hallucinationType": "Urban Myth",
+      "reasoning": "Historical records from Einstein's schooling indicate he consistently received top marks in mathematics throughout his youth.",
+      "correctFact": "Einstein excelled in mathematics throughout his schooling and had mastered calculus by age 15.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "Einstein's 'failed' math grade",
+          "url": "https://einsteinpapers.press.princeton.edu/",
+          "domain": "einsteinpapers.press.princeton.edu",
+          "snippet": "Einstein consistently excelled in mathematics, and the claim he failed is a misinterpretation of Swiss grading systems.",
+          "sourceType": "academic",
+          "credibilityScore": 96
+        }
+      ],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:46.486Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujfk5z-nps",
+      "text": "Albert Einstein mastered differential and integral calculus by age 15.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 98,
+      "hallucinationType": "None",
+      "reasoning": "Biographical accounts and Einstein's own correspondence confirm his early mastery of advanced mathematical concepts.",
+      "correctFact": "Einstein was a prodigy in mathematics and self-studied advanced calculus before he was 16.",
+      "supportingEvidence": [
+        {
+          "title": "The Life of Albert Einstein",
+          "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+          "domain": "nobelprize.org",
+          "snippet": "By the age of 15, Einstein had already mastered differential and integral calculus.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:46.487Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvujfk5z-gwm",
+      "text": "The myth of Einstein failing math originated from a change in the Swiss grading system.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Historical investigation of the Aargau Cantonal School grading records supports this explanation for the source of the misconception.",
+      "correctFact": "The grading system at the Aargau Cantonal School was reversed in 1896, causing confusion about top marks.",
+      "supportingEvidence": [
+        {
+          "title": "Did Einstein Fail Math?",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Einstein/",
+          "domain": "mathshistory.st-andrews.ac.uk",
+          "snippet": "The claim is based on a misunderstanding of the reversal of the grading scale used at his school.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:46.487Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujfqxg-0jl",
+      "text": "Jennifer Doudna and Emmanuelle Charpentier developed the CRISPR-Cas9 gene-editing method.",
+      "claimType": "entity_relation",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Doudna and Charpentier are widely credited with transforming CRISPR-Cas9 into a versatile genome-editing tool.",
+      "supportingEvidence": [
+        {
+          "title": "The Nobel Prize in Chemistry 2020",
+          "url": "https://www.nobelprize.org/prizes/chemistry/2020/summary/",
+          "domain": "nobelprize.org",
+          "snippet": "The Nobel Prize in Chemistry 2020 was awarded jointly to Emmanuelle Charpentier and Jennifer A. Doudna for the development of a method for genome editing.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:55.252Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujfqxh-syt",
+      "text": "The foundational paper for CRISPR-Cas9 gene editing was published in 2012.",
+      "claimType": "chronological",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "The landmark paper demonstrating the use of Cas9 for genome editing was published in the journal Science in June 2012.",
+      "supportingEvidence": [
+        {
+          "title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+          "url": "https://www.science.org/doi/10.1126/science.1225829",
+          "domain": "science.org",
+          "snippet": "The study detailing the CRISPR-Cas9 system was published in Science on June 28, 2012.",
+          "sourceType": "academic",
+          "credibilityScore": 98
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:55.253Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvujfqxh-coc",
+      "text": "Doudna and Charpentier received the Nobel Prize in Chemistry in 2020.",
+      "claimType": "chronological",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Official records from the Nobel Foundation confirm the 2020 Chemistry prize was awarded to these two scientists.",
+      "supportingEvidence": [
+        {
+          "title": "The Nobel Prize in Chemistry 2020",
+          "url": "https://www.nobelprize.org/prizes/chemistry/2020/summary/",
+          "domain": "nobelprize.org",
+          "snippet": "The Nobel Prize in Chemistry 2020 was awarded jointly to Emmanuelle Charpentier and Jennifer A. Doudna.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:34:55.253Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujfwkm-0uj",
+      "text": "An adult human skeleton typically consists of 206 bones.",
+      "claimType": "statistical",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Standard anatomical textbooks confirm that the adult human skeleton consists of 206 bones.",
+      "correctFact": "null",
+      "supportingEvidence": [
+        {
+          "title": "Anatomy and Physiology - Skeleton",
+          "url": "https://openstax.org/details/books/anatomy-and-physiology",
+          "domain": "openstax.org",
+          "snippet": "The adult skeleton is composed of 206 bones.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:02.566Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujfwkm-r8w",
+      "text": "A newborn infant is born with approximately 270 to 300 bones.",
+      "claimType": "statistical",
+      "status": "supported",
+      "confidence": 98,
+      "hallucinationType": "None",
+      "reasoning": "Biological development dictates that infants possess more cartilaginous elements that eventually fuse during childhood growth.",
+      "correctFact": "null",
+      "supportingEvidence": [
+        {
+          "title": "NIH - The Skeletal System",
+          "url": "https://www.niams.nih.gov/",
+          "domain": "niams.nih.gov",
+          "snippet": "At birth, an infant's skeleton is made up of around 300 parts, which include cartilage that eventually turns into bone.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:02.566Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvujfwkm-fw9",
+      "text": "Bones in the skull, sacrum, and pelvic girdle fuse together during growth.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Ossification is a well-documented developmental process where separate bone segments fuse to increase structural integrity.",
+      "correctFact": "null",
+      "supportingEvidence": [
+        {
+          "title": "Bone Development and Ossification",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK499878/",
+          "domain": "ncbi.nlm.nih.gov",
+          "snippet": "Endochondral ossification allows for the growth and fusion of bones throughout human development.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:02.566Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujg1b9-9fv",
+      "text": "Napoleon Bonaparte was exceptionally short compared to European men of his era.",
+      "claimType": "entity_relation",
+      "status": "contradicted",
+      "confidence": 99,
+      "hallucinationType": "Urban Myth",
+      "reasoning": "The misconception arises from a confusion between French pre-metric measurements and the British imperial system, as well as political propaganda.",
+      "correctFact": "Napoleon was of average height for a French male of his time, measuring approximately 5 feet 6 inches or 5 feet 7 inches.",
+      "supportingEvidence": [],
+      "contradictingEvidence": [
+        {
+          "title": "Was Napoleon Bonaparte short?",
+          "url": "https://www.history.com/news/was-napoleon-bonaparte-short",
+          "domain": "history.com",
+          "snippet": "Napoleon actually stood about 5 feet 6 inches tall, which was average for his time.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "claimOrigin": "user_premise",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:08.709Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujg1b9-vnh",
+      "text": "Napoleon measured approximately 1.68 to 1.70 meters in height.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 98,
+      "hallucinationType": "None",
+      "reasoning": "Historical records and conversion from French pre-metric units confirm this stature.",
+      "correctFact": "N/A",
+      "supportingEvidence": [
+        {
+          "title": "Napoleon's Height",
+          "url": "https://www.britannica.com/biography/Napoleon-I",
+          "domain": "britannica.com",
+          "snippet": "Napoleon's height of 5 feet 2 inches in French measure is equivalent to about 5 feet 7 inches in English measure.",
+          "sourceType": "encyclopedia",
+          "credibilityScore": 92
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:08.709Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvujg1ba-h6t",
+      "text": "The myth of Napoleon's shortness was amplified by British wartime propaganda.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 95,
+      "hallucinationType": "None",
+      "reasoning": "Political cartoonists, such as James Gillray, frequently depicted Napoleon as diminutive to diminish his authority.",
+      "correctFact": "N/A",
+      "supportingEvidence": [
+        {
+          "title": "The Napoleon Myth",
+          "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/napoleon-and-the-little-corporal-myth/",
+          "domain": "napoleon.org",
+          "snippet": "British cartoonists played a key role in the 'Little Boney' caricature.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:08.710Z"
+  },
+  {
+    "claim": {
+      "id": "claim-4-mvujg1ba-45v",
+      "text": "Napoleon's height was recorded as 5 feet 2 inches in French units.",
+      "claimType": "general_factual",
+      "status": "supported",
+      "confidence": 98,
+      "hallucinationType": "None",
+      "reasoning": "Post-mortem reports confirm this measurement using the contemporary French standard (pouce).",
+      "correctFact": "N/A",
+      "supportingEvidence": [
+        {
+          "title": "Napoleon's Autopsy and Height",
+          "url": "https://www.pbs.org/empires/napoleon/n_politic/bio/index.html",
+          "domain": "pbs.org",
+          "snippet": "The confusion over his height stems from the fact that the French inch was longer than the English inch.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:08.710Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujg5uu-gto",
+      "text": "Alexander Fleming discovered penicillin in 1928.",
+      "claimType": "chronological",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Historical records confirm that Alexander Fleming identified the antibacterial properties of Penicillium notatum at St. Mary's Hospital in 1928.",
+      "correctFact": "None",
+      "supportingEvidence": [
+        {
+          "title": "Alexander Fleming - Biographical",
+          "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/",
+          "domain": "nobelprize.org",
+          "snippet": "In 1928, Fleming discovered penicillin when he noticed that a culture of staphylococci had been contaminated by a fungus.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:14.598Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujg5uu-jsl",
+      "text": "The discovery occurred at St. Mary's Hospital in London.",
+      "claimType": "entity_relation",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Fleming was conducting his research at St. Mary's Hospital, part of the University of London, when he made the discovery.",
+      "correctFact": "None",
+      "supportingEvidence": [
+        {
+          "title": "St. Mary's Hospital and Penicillin",
+          "url": "https://www.imperial.nhs.uk/about-us/our-history",
+          "domain": "imperial.nhs.uk",
+          "snippet": "It was at St Mary's Hospital that Sir Alexander Fleming discovered penicillin in 1928.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:14.598Z"
+  },
+  {
+    "claim": {
+      "id": "claim-3-mvujg5uv-ijp",
+      "text": "Penicillin was discovered by Alexander Fleming.",
+      "claimType": "entity_relation",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Alexander Fleming is universally credited with the initial discovery of penicillin's antibiotic properties in 1928.",
+      "correctFact": "None",
+      "supportingEvidence": [
+        {
+          "title": "The Discovery of Penicillin",
+          "url": "https://www.acs.org/molecule-of-the-week/archive/p/penicillin.html",
+          "domain": "acs.org",
+          "snippet": "Alexander Fleming discovered penicillin in 1928 at St. Mary's Hospital in London.",
+          "sourceType": "web",
+          "credibilityScore": 80
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:14.599Z"
+  },
+  {
+    "claim": {
+      "id": "claim-1-mvujg9bv-zuz",
+      "text": "Voyager 1 was launched on September 5, 1977.",
+      "claimType": "chronological",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "NASA mission records confirm the launch date of Voyager 1 occurred on September 5, 1977.",
+      "supportingEvidence": [
+        {
+          "title": "NASA Voyager Mission Overview",
+          "url": "https://voyager.jpl.nasa.gov/mission/",
+          "domain": "voyager.jpl.nasa.gov",
+          "snippet": "Voyager 1 was launched on September 5, 1977.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:19.099Z"
+  },
+  {
+    "claim": {
+      "id": "claim-2-mvujg9bv-a2u",
+      "text": "Voyager 1 crossed the heliopause into interstellar space in 2012.",
+      "claimType": "chronological",
+      "status": "supported",
+      "confidence": 99,
+      "hallucinationType": "None",
+      "reasoning": "Scientific analysis of plasma wave data confirmed Voyager 1 crossed the heliopause on August 25, 2012.",
+      "supportingEvidence": [
+        {
+          "title": "NASA Confirms Voyager 1 Has Entered Interstellar Space",
+          "url": "https://www.nasa.gov/mission_pages/voyager/voyager20130912.html",
+          "domain": "nasa.gov",
+          "snippet": "NASA's Voyager 1 has become the first human-made object to venture into interstellar space. The craft is currently 12 billion miles from our sun.",
+          "sourceType": "government",
+          "credibilityScore": 98
+        }
+      ],
+      "contradictingEvidence": [],
+      "claimOrigin": "ai_response",
+      "isCached": false
+    },
+    "timestamp": "2026-10-30T05:35:19.099Z"
+  }
+]

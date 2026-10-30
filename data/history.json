@@ -1,0 +1,1055 @@
+[
+  {
+    "id": "session-1793338458536-m52v2",
+    "timestamp": "2026-10-30T05:34:18.536Z",
+    "prompt": "Explain photosynthesis.",
+    "domain": "General Knowledge",
+    "originalResponse": "Photosynthesis is the biological process by which autotrophs, such as plants, algae, and some bacteria, convert light energy into chemical energy. During this process, these organisms use sunlight, water, and carbon dioxide to synthesize glucose, a form of sugar that serves as energy for the organism. A critical byproduct of this reaction is oxygen, which is released into the atmosphere. The reaction takes place primarily within the chloroplasts of plant cells, specifically utilizing the pigment chlorophyll to capture light energy.",
+    "claims": [
+      {
+        "id": "claim-1-mvujewnp-nyh",
+        "text": "Photosynthesis converts light energy into chemical energy.",
+        "claimType": "definition",
+        "status": "supported",
+        "confidence": 99,
+        "hallucinationType": "None",
+        "reasoning": "Photosynthesis is defined by the transformation of solar energy into storable chemical energy within glucose molecules.",
+        "correctFact": "None",
+        "supportingEvidence": [
+          {
+            "title": "Photosynthesis",
+            "url": "https://www.britannica.com/science/photosynthesis",
+            "domain": "britannica.com",
+            "snippet": "Photosynthesis, the process by which green plants and certain other organisms transform light energy into chemical energy.",
+            "sourceType": "encyclopedia",
+            "credibilityScore": 92
+          }
+        ],
+        "contradictingEvidence": [],
+        "claimOrigin": "ai_response",
+        "isCached": false
+      },
+      {
+        "id": "claim-2-mvujewnp-h2j",
+        "text": "Oxygen is a byproduct of photosynthesis.",
+        "claimType": "general_factual",
+        "status": "supported",
+        "confidence": 99,
+        "hallucinationType": "None",
+        "reasoning": "Oxygen is produced as a waste product when water molecules are split during the light-dependent reactions of photosynthesis.",
+        "correctFact": "None",
+        "supportingEvidence": [
+          {
+            "title": "What is Photosynthesis?",
+            "url": "https://www.nature.com/scitable/definition/photosynthesis-280/",
+            "domain": "nature.com",
+            "snippet": "Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities... often releasing oxygen as a byproduct.",
+            "sourceType": "academic",
+            "credibilityScore": 98
+          }
+        ],
+        "contradictingEvidence": [],
+        "claimOrigin": "ai_response",
+        "isCached": false
+      },
+      {
+        "id": "claim-3-mvujewnp-612",
+        "text": "Photosynthesis occurs primarily in the chloroplasts of plant cells.",
+        "claimType": "entity_relation",
+        "status": "supported",
+        "confidence": 99,
+        "hallucinationType": "None",
+        "reasoning": "Chloroplasts contain chlorophyll and the necessary enzymes to conduct the stages of photosynthesis in eukaryotic plant cells.",
+        "correctFact": "None",
+        "supportingEvidence": [
+          {
+            "title": "Chloroplast",
+            "url": "https://www.nationalgeographic.org/encyclopedia/chloroplast/",
+            "domain": "nationalgeographic.org",
+            "snippet": "Chloroplasts are plant cell organelles that convert light energy into relatively stable chemical energy via the photosynthetic process.",
+            "sourceType": "web",
+            "credibilityScore": 80
+          }
+        ],
+        "contradictingEvidence": [],
+        "claimOrigin": "ai_response",
+        "isCached": false
+      }
+    ],
+    "metrics": {
+      "totalClaims": 3,
+      "supportedCount": 3,
+      "contradictedCount": 0,
+      "unverifiedCount": 0,
+      "verificationCoverage": 100,
+      "hallucinationRate": 0,
+      "reliabilityScore": 100,
+      "formulaExplanation": "Score = max(0, min(100, round([(S × 1.0 + U × 0.35 - C × 1.75) / Total] × 100))) where S=3 supported, U=0 unverified, C=0 contradicted, Total=3. Note: Reliability score measures empirical grounding against retrieved external evidence and should not be construed as infallible mathematical certainty.",
+      "calculationBreakdown": {
+        "baseSupportedWeight": 1,
+        "unverifiedDiscount": 0.35,
+        "contradictedPenalty": 1.75,
+        "rawScore": 100,
+        "normalizedScore": 100
+      }
+    },
+    "optimization": {
+      "originalPrompt": "Explain photosynthesis.",
+      "optimizedPrompt": "Provide a rigorous, evidence-based factual answer to: \"Explain photosynthesis.\". Requirements: 1. Cite authoritative peer-reviewed or institutional consensus. 2. Verify all quantitative claims and distinct entities. 3. Explicitly dispel any popular misconceptions. 4. Accurately distinguish established facts from speculative assertions.",
+      "critique": {
+        "missingContext": [
+          "Lacks demand for primary institutional source citations",
+          "Open-ended phrasing inviting ungrounded colloquial assertions"
+        ],
+        "ambiguities": [
+          "Did not specify exact observation parameters or verification standards",
+          "Vague reference frame allowing conflation of folklore or misconceptions with fact"
+        ],
+        "insufficientConstraints": [
+          "Absence of explicit instruction to evaluate multiple claims independently",
+          "No epistemic directive to flag and correct unsupported premises"
+        ]
+      },
+      "improvementsApplied": [
+        "Injected explicit requirement for independent claim-by-claim evaluation",
+        "Added myth-debunking directive to guard against hallucination propagation",
+        "Required metric quantification and authoritative institutional consensus",
+        "Enforced explicit epistemic boundaries and primary references"
+      ],
+      "optimizationRationale": "By placing strict evidentiary boundaries and requiring explicit citation anchors, the model is compelled to reference verified consensus rather than relying on generative associative memory."
+    },
+    "comparison": {
+      "originalMetrics": {
+        "relevanceScore": 90,
+        "completenessScore": 65,
+        "clarityScore": 84,
+        "evidenceSupportScore": 100,
+        "factualConsistencyScore": 100,
+        "structuralScore": 80,
+        "reliabilityScore": 100,
+        "hallucinationRate": 0,
+        "claimCount": 3,
+        "supportedCount": 3,
+        "contradictedCount": 0,
+        "unverifiedCount": 0
+      },
+      "optimizedMetrics": {
+        "relevanceScore": 97,
+        "completenessScore": 89,
+        "clarityScore": 95,
+        "evidenceSupportScore": 100,
+        "factualConsistencyScore": 100,
+        "structuralScore": 96,
+        "reliabilityScore": 100,
+        "hallucinationRate": 0,
+        "claimCount": 3,
+        "supportedCount": 3,
+        "contradictedCount": 0,
+        "unverifiedCount": 0
+      },
+      "optimizedResponse": "Photosynthesis is the physiochemical process by which photoautotrophs convert light energy into chemical energy. Primarily occurring in chloroplasts, the reaction follows the net equation: 6CO2 + 6H2O + light → C6H12O6 + 6O2 (Campbell Biology, 12th ed.). Light-dependent reactions in the thylakoid membranes generate ATP and NADPH, while the Calvin cycle in the stroma fixes carbon. A common misconception is that all plant mass originates from soil; research confirms the vast majority of dry biomass is derived from atmospheric carbon dioxide (Plant Physiology, Taiz et al.). While oxygen production is a central byproduct in oxygenic photosynthesis, some anaerobic bacteria perform anoxygenic photosynthesis using hydrogen sulfide, producing sulfur instead of oxygen. This distinction is crucial for understanding evolutionary metabolic pathways.",
+      "optimizedClaims": [
+        {
+          "id": "opt-claim-1-1793338458535",
+          "text": "The vast majority of dry plant biomass is derived from atmospheric carbon dioxide.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "Classic experiments by Jan Baptist van Helmont and modern stable isotope studies confirm that carbon sequestered from CO2 forms the carbon backbone of organic plant matter, not soil nutrients.",
+          "supportingEvidence": [
+            {
+              "title": "Plant Physiology and Development",
+              "url": "https://global.oup.com/uscompanion/pag/static/student/materials/chapter07/",
+              "domain": "global.oup.com",
+              "snippet": "Carbon dioxide is the primary source of carbon for the synthesis of organic compounds in plants.",
+              "sourceType": "web",
+              "credibilityScore": 80
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        },
+        {
+          "id": "opt-claim-2-1793338458535",
+          "text": "Anoxygenic photosynthesis uses hydrogen sulfide and produces sulfur, not oxygen.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "Green and purple sulfur bacteria utilize hydrogen sulfide (H2S) as an electron donor in photosynthesis, which results in the release of elemental sulfur rather than oxygen.",
+          "supportingEvidence": [
+            {
+              "title": "NCBI Bookshelf: Photosynthetic Bacteria",
+              "url": "https://www.ncbi.nlm.nih.gov/books/NBK22557/",
+              "domain": "ncbi.nlm.nih.gov",
+              "snippet": "In anoxygenic photosynthesis, H2S is used as an electron donor, and sulfur is produced as a byproduct.",
+              "sourceType": "government",
+              "credibilityScore": 98
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        },
+        {
+          "id": "opt-claim-3-1793338458535",
+          "text": "The net equation for oxygenic photosynthesis is 6CO2 + 6H2O + light → C6H12O6 + 6O2.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "This is the universally accepted stoichiometric summary used in peer-reviewed biology curricula and scientific literature for oxygenic photosynthesis.",
+          "supportingEvidence": [
+            {
+              "title": "Campbell Biology",
+              "url": "https://www.pearson.com/en-us/subject-catalog/p/campbell-biology",
+              "domain": "pearson.com",
+              "snippet": "The simplified equation for photosynthesis is 6CO2 + 12H2O + Light energy → C6H12O6 + 6O2 + 6H2O.",
+              "sourceType": "web",
+              "credibilityScore": 80
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        }
+      ],
+      "overallVerdict": "Optimized prompt maintained high factual fidelity (+2%) with increased structural rigor and clearer evidentiary boundaries.",
+      "improvementDeltaPercent": 0,
+      "comparisonHighlights": [
+        "Factual accuracy improved by reducing contradicted statements from 0 to 0.",
+        "Verification coverage reached 100% with enhanced source grounding.",
+        "Ambiguity eliminated through explicit scoping and precision qualifiers."
+      ]
+    },
+    "processingTimeMs": 5014,
+    "modelUsed": "gemini-3.1-flash-lite"
+  },
+  {
+    "id": "session-1793338448091-pumz4",
+    "timestamp": "2026-10-30T05:34:08.091Z",
+    "prompt": "HTML is a markup language, Python is a programming language, and JavaScript was created by Microsoft.",
+    "domain": "General Knowledge",
+    "originalResponse": "HTML stands for HyperText Markup Language and is the standard markup language for documents designed to be displayed in a web browser. Python is a high-level, interpreted programming language known for its readability and versatility. JavaScript, however, was not created by Microsoft; it was created by Brendan Eich while he was working at Netscape Communications in 1995. Microsoft created JScript, a separate implementation of ECMAScript, but they did not originate the JavaScript language itself.",
+    "claims": [
+      {
+        "id": "claim-1-mvujep0z-011",
+        "text": "HTML is a markup language.",
+        "claimType": "definition",
+        "status": "supported",
+        "confidence": 99,
+        "hallucinationType": "None",
+        "reasoning": "HTML (HyperText Markup Language) is the industry standard for structuring content on the web.",
+        "supportingEvidence": [
+          {
+            "title": "W3C HTML",
+            "url": "https://www.w3.org/standards/webdesign/htmlcss",
+            "domain": "w3.org",
+            "snippet": "HTML is the basic building block of the Web.",
+            "sourceType": "trusted_news",
+            "credibilityScore": 90
+          }
+        ],
+        "contradictingEvidence": [],
+        "claimOrigin": "user_premise",
+        "isCached": false
+      },
+      {
+        "id": "claim-2-mvujep0z-0oj",
+        "text": "Python is a programming language.",
+        "claimType": "definition",
+        "status": "supported",
+        "confidence": 99,
+        "hallucinationType": "None",
+        "reasoning": "Python is a widely used high-level, general-purpose programming language.",
+        "supportingEvidence": [
+          {
+            "title": "Python.org",
+            "url": "https://www.python.org/about/",
+            "domain": "python.org",
+            "snippet": "Python is an interpreted, object-oriented, high-level programming language.",
+            "sourceType": "web",
+            "credibilityScore": 80
+          }
+        ],
+        "contradictingEvidence": [],
+        "claimOrigin": "user_premise",
+        "isCached": false
+      },
+      {
+        "id": "claim-3-mvujep10-bvi",
+        "text": "JavaScript was created by Microsoft.",
+        "claimType": "entity_relation",
+        "status": "contradicted",
+        "confidence": 99,
+        "hallucinationType": "Factual Contradiction",
+        "reasoning": "JavaScript was developed by Brendan Eich at Netscape; Microsoft developed their own version called JScript.",
+        "correctFact": "JavaScript was created by Brendan Eich at Netscape in 1995.",
+        "supportingEvidence": [],
+        "contradictingEvidence": [
+          {
+            "title": "MDN Web Docs - A re-introduction to JavaScript",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript",
+            "domain": "developer.mozilla.org",
+            "snippet": "JavaScript was created by Brendan Eich at Netscape.",
+            "sourceType": "trusted_news",
+            "credibilityScore": 90
+          }
+        ],
+        "claimOrigin": "user_premise",
+        "isCached": false
+      }
+    ],
+    "metrics": {
+      "totalClaims": 3,
+      "supportedCount": 2,
+      "contradictedCount": 1,
+      "unverifiedCount": 0,
+      "verificationCoverage": 100,
+      "hallucinationRate": 33.3,
+      "reliabilityScore": 8,
+      "formulaExplanation": "Score = max(0, min(100, round([(S × 1.0 + U × 0.35 - C × 1.75) / Total] × 100))) where S=2 supported, U=0 unverified, C=1 contradicted, Total=3. Note: Reliability score measures empirical grounding against retrieved external evidence and should not be construed as infallible mathematical certainty.",
+      "calculationBreakdown": {
+        "baseSupportedWeight": 1,
+        "unverifiedDiscount": 0.35,
+        "contradictedPenalty": 1.75,
+        "rawScore": 8.33,
+        "normalizedScore": 8
+      }
+    },
+    "optimization": {
+      "originalPrompt": "HTML is a markup language, Python is a programming language, and JavaScript was created by Microsoft.",
+      "optimizedPrompt": "Provide an authoritative, evidence-grounded factual correction for: \"HTML is a markup language, Python is a programming language, and JavaScript was created by Microsoft.\". Requirements: 1. Directly evaluate each claim individually. 2. Cite authoritative scientific/historical consensus (e.g., NASA, Britannica, W3C) to correct misconceptions. 3. State exact metrics, primary dates, and verified facts.",
+      "critique": {
+        "missingContext": [
+          "Lacks demand for primary institutional source citations",
+          "Open-ended phrasing inviting ungrounded colloquial assertions"
+        ],
+        "ambiguities": [
+          "Did not specify exact observation parameters or verification standards",
+          "Vague reference frame allowing conflation of folklore or misconceptions with fact"
+        ],
+        "insufficientConstraints": [
+          "Absence of explicit instruction to evaluate multiple claims independently",
+          "No epistemic directive to flag and correct unsupported premises"
+        ]
+      },
+      "improvementsApplied": [
+        "Injected explicit requirement for independent claim-by-claim evaluation",
+        "Added myth-debunking directive to guard against hallucination propagation",
+        "Required metric quantification and authoritative institutional consensus",
+        "Enforced explicit epistemic boundaries and primary references"
+      ],
+      "optimizationRationale": "By placing strict evidentiary boundaries and requiring explicit citation anchors, the model is compelled to reference verified consensus rather than relying on generative associative memory."
+    },
+    "comparison": {
+      "originalMetrics": {
+        "relevanceScore": 90,
+        "completenessScore": 65,
+        "clarityScore": 84,
+        "evidenceSupportScore": 67,
+        "factualConsistencyScore": 50,
+        "structuralScore": 80,
+        "reliabilityScore": 8,
+        "hallucinationRate": 33.3,
+        "claimCount": 3,
+        "supportedCount": 2,
+        "contradictedCount": 1,
+        "unverifiedCount": 0
+      },
+      "optimizedMetrics": {
+        "relevanceScore": 97,
+        "completenessScore": 74,
+        "clarityScore": 95,
+        "evidenceSupportScore": 67,
+        "factualConsistencyScore": 50,
+        "structuralScore": 96,
+        "reliabilityScore": 8,
+        "hallucinationRate": 33.3,
+        "claimCount": 3,
+        "supportedCount": 2,
+        "contradictedCount": 1,
+        "unverifiedCount": 0
+      },
+      "optimizedResponse": "The initial statement contains a mixture of factual and erroneous claims. 1. HTML (HyperText Markup Language) is indeed a standard markup language used to create web pages, standardized by the World Wide Web Consortium (W3C). 2. Python is classified as a high-level, interpreted programming language, first released by Guido van Rossum in 1991. 3. The claim that JavaScript was created by Microsoft is false. JavaScript was created by Brendan Eich in 1995 while he was employed at Netscape Communications. Microsoft later developed its own implementation called JScript, but it is not the origin of the language.",
+      "optimizedClaims": [
+        {
+          "id": "opt-claim-1-1793338448090",
+          "text": "HTML is a markup language.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "The W3C defines HTML as the standard markup language for documents designed to be displayed in a web browser.",
+          "supportingEvidence": [
+            {
+              "title": "W3C HTML5 Specification",
+              "url": "https://www.w3.org/TR/html52/",
+              "domain": "w3.org",
+              "snippet": "HTML is the standard markup language for the Web.",
+              "sourceType": "trusted_news",
+              "credibilityScore": 90
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        },
+        {
+          "id": "opt-claim-2-1793338448091",
+          "text": "Python is a programming language.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "Python is universally categorized as a general-purpose, interpreted programming language.",
+          "supportingEvidence": [
+            {
+              "title": "Python Software Foundation",
+              "url": "https://www.python.org/doc/essays/blurb/",
+              "domain": "python.org",
+              "snippet": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.",
+              "sourceType": "web",
+              "credibilityScore": 80
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        },
+        {
+          "id": "opt-claim-3-1793338448091",
+          "text": "JavaScript was created by Microsoft.",
+          "claimType": "general_factual",
+          "status": "contradicted",
+          "confidence": 96,
+          "hallucinationType": "Factual Contradiction",
+          "reasoning": "Historical records from Netscape confirm Brendan Eich created JavaScript; Microsoft developed JScript as a separate, albeit compatible, implementation.",
+          "supportingEvidence": [],
+          "contradictingEvidence": [
+            {
+              "title": "Encyclopædia Britannica: JavaScript",
+              "url": "https://www.britannica.com/technology/JavaScript",
+              "domain": "britannica.com",
+              "snippet": "JavaScript, computer programming language... was created by Brendan Eich while he was working at Netscape Communications Corporation.",
+              "sourceType": "encyclopedia",
+              "credibilityScore": 92
+            }
+          ],
+          "claimOrigin": "ai_response"
+        }
+      ],
+      "overallVerdict": "Optimized prompt maintained high factual fidelity (+2%) with increased structural rigor and clearer evidentiary boundaries.",
+      "improvementDeltaPercent": 0,
+      "comparisonHighlights": [
+        "Factual accuracy improved by reducing contradicted statements from 1 to 1.",
+        "Verification coverage reached 67% with enhanced source grounding.",
+        "Ambiguity eliminated through explicit scoping and precision qualifiers."
+      ]
+    },
+    "processingTimeMs": 4147,
+    "modelUsed": "gemini-3.1-flash-lite"
+  },
+  {
+    "id": "session-1793338438494-n86du",
+    "timestamp": "2026-10-30T05:33:58.494Z",
+    "prompt": "The Earth revolves around the Sun, and the Moon produces its own light.",
+    "domain": "General Knowledge",
+    "originalResponse": "The statement that the Earth revolves around the Sun is scientifically accurate; it is a fundamental fact of our solar system's heliocentric model. However, the claim that the Moon produces its own light is false. The Moon does not have an internal source of light; instead, it is visible to us on Earth because its surface reflects sunlight. When we see the Moon glowing, we are observing sunlight that has bounced off its rocky, cratered surface.",
+    "claims": [
+      {
+        "id": "claim-1-mvujehf9-kj3",
+        "text": "The Earth revolves around the Sun.",
+        "claimType": "entity_relation",
+        "status": "supported",
+        "confidence": 99,
+        "hallucinationType": "None",
+        "reasoning": "Scientific consensus and astronomical observations confirm that Earth follows an elliptical orbit around the Sun.",
+        "supportingEvidence": [
+          {
+            "title": "NASA Solar System Exploration",
+            "url": "https://solarsystem.nasa.gov/planets/earth/overview/",
+            "domain": "solarsystem.nasa.gov",
+            "snippet": "Earth orbits the Sun once every 365.25 days.",
+            "sourceType": "government",
+            "credibilityScore": 98
+          }
+        ],
+        "contradictingEvidence": [],
+        "claimOrigin": "user_premise",
+        "isCached": false
+      },
+      {
+        "id": "claim-2-mvujehf9-rj9",
+        "text": "The Moon produces its own light.",
+        "claimType": "entity_relation",
+        "status": "contradicted",
+        "confidence": 99,
+        "hallucinationType": "Factual Contradiction",
+        "reasoning": "The Moon is a non-luminous body that reflects light from the Sun, which is why it undergoes phases based on its position relative to the Sun and Earth.",
+        "correctFact": "The Moon reflects sunlight rather than producing its own light.",
+        "supportingEvidence": [],
+        "contradictingEvidence": [
+          {
+            "title": "NASA Moon Phases",
+            "url": "https://moon.nasa.gov/moon-in-motion/phases-eclipses-supermoons/moon-phases/",
+            "domain": "moon.nasa.gov",
+            "snippet": "The Moon does not make its own light. The Moon is lit by the Sun.",
+            "sourceType": "government",
+            "credibilityScore": 98
+          }
+        ],
+        "claimOrigin": "user_premise",
+        "isCached": false
+      }
+    ],
+    "metrics": {
+      "totalClaims": 2,
+      "supportedCount": 1,
+      "contradictedCount": 1,
+      "unverifiedCount": 0,
+      "verificationCoverage": 100,
+      "hallucinationRate": 50,
+      "reliabilityScore": 0,
+      "formulaExplanation": "Score = max(0, min(100, round([(S × 1.0 + U × 0.35 - C × 1.75) / Total] × 100))) where S=1 supported, U=0 unverified, C=1 contradicted, Total=2. Note: Reliability score measures empirical grounding against retrieved external evidence and should not be construed as infallible mathematical certainty.",
+      "calculationBreakdown": {
+        "baseSupportedWeight": 1,
+        "unverifiedDiscount": 0.35,
+        "contradictedPenalty": 1.75,
+        "rawScore": -37.5,
+        "normalizedScore": 0
+      }
+    },
+    "optimization": {
+      "originalPrompt": "The Earth revolves around the Sun, and the Moon produces its own light.",
+      "optimizedPrompt": "Provide an authoritative, evidence-grounded factual correction for: \"The Earth revolves around the Sun, and the Moon produces its own light.\". Requirements: 1. Directly evaluate each claim individually. 2. Cite authoritative scientific/historical consensus (e.g., NASA, Britannica, W3C) to correct misconceptions. 3. State exact metrics, primary dates, and verified facts.",
+      "critique": {
+        "missingContext": [
+          "Lacks demand for primary institutional source citations",
+          "Open-ended phrasing inviting ungrounded colloquial assertions"
+        ],
+        "ambiguities": [
+          "Did not specify exact observation parameters or verification standards",
+          "Vague reference frame allowing conflation of folklore or misconceptions with fact"
+        ],
+        "insufficientConstraints": [
+          "Absence of explicit instruction to evaluate multiple claims independently",
+          "No epistemic directive to flag and correct unsupported premises"
+        ]
+      },
+      "improvementsApplied": [
+        "Injected explicit requirement for independent claim-by-claim evaluation",
+        "Added myth-debunking directive to guard against hallucination propagation",
+        "Required metric quantification and authoritative institutional consensus",
+        "Enforced explicit epistemic boundaries and primary references"
+      ],
+      "optimizationRationale": "By placing strict evidentiary boundaries and requiring explicit citation anchors, the model is compelled to reference verified consensus rather than relying on generative associative memory."
+    },
+    "comparison": {
+      "originalMetrics": {
+        "relevanceScore": 90,
+        "completenessScore": 65,
+        "clarityScore": 84,
+        "evidenceSupportScore": 50,
+        "factualConsistencyScore": 25,
+        "structuralScore": 80,
+        "reliabilityScore": 0,
+        "hallucinationRate": 50,
+        "claimCount": 2,
+        "supportedCount": 1,
+        "contradictedCount": 1,
+        "unverifiedCount": 0
+      },
+      "optimizedMetrics": {
+        "relevanceScore": 97,
+        "completenessScore": 78,
+        "clarityScore": 95,
+        "evidenceSupportScore": 67,
+        "factualConsistencyScore": 50,
+        "structuralScore": 96,
+        "reliabilityScore": 8,
+        "hallucinationRate": 33.3,
+        "claimCount": 3,
+        "supportedCount": 2,
+        "contradictedCount": 1,
+        "unverifiedCount": 0
+      },
+      "optimizedResponse": "The statement contains one accurate claim and one fundamental misconception. First, the Earth’s revolution around the Sun is scientifically confirmed; Earth orbits the Sun at an average distance of 149.6 million kilometers, completing one revolution approximately every 365.25 days (NASA). Conversely, the claim that the Moon produces its own light is false. According to Britannica, the Moon is a non-luminous body that does not generate visible light via nuclear fusion or chemical reactions. Instead, it appears luminous due to the reflection of sunlight. Lunar phases and illumination are strictly dependent on the Moon’s position relative to the Sun as viewed from Earth.",
+      "optimizedClaims": [
+        {
+          "id": "opt-claim-1-1793338438493",
+          "text": "The Earth orbits the Sun approximately every 365.25 days.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "This aligns with established astronomical data regarding Earth's orbital period and the definition of a solar year.",
+          "supportingEvidence": [
+            {
+              "title": "NASA: Earth Fact Sheet",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+              "domain": "nssdc.gsfc.nasa.gov",
+              "snippet": "Sidereal orbit period (days): 365.256",
+              "sourceType": "government",
+              "credibilityScore": 98
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        },
+        {
+          "id": "opt-claim-2-1793338438493",
+          "text": "The Moon produces its own light.",
+          "claimType": "general_factual",
+          "status": "contradicted",
+          "confidence": 96,
+          "hallucinationType": "Factual Contradiction",
+          "reasoning": "The Moon is an opaque, non-luminous object that reflects sunlight rather than generating its own via internal processes.",
+          "supportingEvidence": [],
+          "contradictingEvidence": [
+            {
+              "title": "Britannica: Moon",
+              "url": "https://www.britannica.com/place/Moon",
+              "domain": "britannica.com",
+              "snippet": "The Moon is a nonluminous body, shining by reflected sunlight.",
+              "sourceType": "encyclopedia",
+              "credibilityScore": 92
+            }
+          ],
+          "claimOrigin": "ai_response"
+        },
+        {
+          "id": "opt-claim-3-1793338438493",
+          "text": "Earth orbits the Sun at an average distance of 149.6 million kilometers.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "This value represents the standard astronomical unit (AU) used by space agencies to define Earth's semi-major axis.",
+          "supportingEvidence": [
+            {
+              "title": "NASA Science: Earth Overview",
+              "url": "https://science.nasa.gov/earth/facts/",
+              "domain": "science.nasa.gov",
+              "snippet": "Earth orbits the Sun at an average distance of 93 million miles (150 million km).",
+              "sourceType": "government",
+              "credibilityScore": 98
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        }
+      ],
+      "overallVerdict": "Optimized prompt maintained high factual fidelity (+8%) with increased structural rigor and clearer evidentiary boundaries.",
+      "improvementDeltaPercent": 8,
+      "comparisonHighlights": [
+        "Factual accuracy improved by reducing contradicted statements from 1 to 1.",
+        "Verification coverage reached 67% with enhanced source grounding.",
+        "Ambiguity eliminated through explicit scoping and precision qualifiers."
+      ]
+    },
+    "processingTimeMs": 4488,
+    "modelUsed": "gemini-3.1-flash-lite"
+  },
+  {
+    "id": "session-1793338428811-mhjid",
+    "timestamp": "2026-10-30T05:33:48.811Z",
+    "prompt": "The capital of Japan is Beijing.",
+    "domain": "General Knowledge",
+    "originalResponse": "The statement 'The capital of Japan is Beijing' is false. Beijing is the capital city of the People's Republic of China, whereas Tokyo is the capital city of Japan. Tokyo has served as the political and economic center of Japan since the Meiji Restoration in 1868, when the capital was relocated from Kyoto.",
+    "claims": [
+      {
+        "id": "claim-1-mvujeadz-sh5",
+        "text": "The capital of Japan is Beijing.",
+        "claimType": "entity_relation",
+        "status": "contradicted",
+        "confidence": 99,
+        "hallucinationType": "Entity Error",
+        "reasoning": "Tokyo is officially recognized as the capital of Japan, while Beijing is the capital of China.",
+        "correctFact": "The capital of Japan is Tokyo.",
+        "supportingEvidence": [],
+        "contradictingEvidence": [
+          {
+            "title": "CIA World Factbook: Japan",
+            "url": "https://www.cia.gov/the-world-factbook/countries/japan/",
+            "domain": "cia.gov",
+            "snippet": "Capital: Tokyo",
+            "sourceType": "government",
+            "credibilityScore": 98
+          }
+        ],
+        "claimOrigin": "user_premise",
+        "isCached": false
+      }
+    ],
+    "metrics": {
+      "totalClaims": 1,
+      "supportedCount": 0,
+      "contradictedCount": 1,
+      "unverifiedCount": 0,
+      "verificationCoverage": 100,
+      "hallucinationRate": 100,
+      "reliabilityScore": 0,
+      "formulaExplanation": "Score = max(0, min(100, round([(S × 1.0 + U × 0.35 - C × 1.75) / Total] × 100))) where S=0 supported, U=0 unverified, C=1 contradicted, Total=1. Note: Reliability score measures empirical grounding against retrieved external evidence and should not be construed as infallible mathematical certainty.",
+      "calculationBreakdown": {
+        "baseSupportedWeight": 1,
+        "unverifiedDiscount": 0.35,
+        "contradictedPenalty": 1.75,
+        "rawScore": -175,
+        "normalizedScore": 0
+      }
+    },
+    "optimization": {
+      "originalPrompt": "The capital of Japan is Beijing.",
+      "optimizedPrompt": "Provide an authoritative, evidence-grounded factual correction for: \"The capital of Japan is Beijing.\". Requirements: 1. Directly evaluate each claim individually. 2. Cite authoritative scientific/historical consensus (e.g., NASA, Britannica, W3C) to correct misconceptions. 3. State exact metrics, primary dates, and verified facts.",
+      "critique": {
+        "missingContext": [
+          "Lacks demand for primary institutional source citations",
+          "Open-ended phrasing inviting ungrounded colloquial assertions"
+        ],
+        "ambiguities": [
+          "Did not specify exact observation parameters or verification standards",
+          "Vague reference frame allowing conflation of folklore or misconceptions with fact"
+        ],
+        "insufficientConstraints": [
+          "Absence of explicit instruction to evaluate multiple claims independently",
+          "No epistemic directive to flag and correct unsupported premises"
+        ]
+      },
+      "improvementsApplied": [
+        "Injected explicit requirement for independent claim-by-claim evaluation",
+        "Added myth-debunking directive to guard against hallucination propagation",
+        "Required metric quantification and authoritative institutional consensus",
+        "Enforced explicit epistemic boundaries and primary references"
+      ],
+      "optimizationRationale": "By placing strict evidentiary boundaries and requiring explicit citation anchors, the model is compelled to reference verified consensus rather than relying on generative associative memory."
+    },
+    "comparison": {
+      "originalMetrics": {
+        "relevanceScore": 90,
+        "completenessScore": 65,
+        "clarityScore": 84,
+        "evidenceSupportScore": 0,
+        "factualConsistencyScore": 0,
+        "structuralScore": 80,
+        "reliabilityScore": 0,
+        "hallucinationRate": 100,
+        "claimCount": 1,
+        "supportedCount": 0,
+        "contradictedCount": 1,
+        "unverifiedCount": 0
+      },
+      "optimizedMetrics": {
+        "relevanceScore": 97,
+        "completenessScore": 67,
+        "clarityScore": 95,
+        "evidenceSupportScore": 100,
+        "factualConsistencyScore": 100,
+        "structuralScore": 96,
+        "reliabilityScore": 100,
+        "hallucinationRate": 0,
+        "claimCount": 3,
+        "supportedCount": 3,
+        "contradictedCount": 0,
+        "unverifiedCount": 0
+      },
+      "optimizedResponse": "The statement 'The capital of Japan is Beijing' is factually incorrect. According to Britannica and official Japanese government records, the capital of Japan is Tokyo. Beijing is the capital of the People's Republic of China, not Japan. Tokyo has served as the de facto capital of Japan since 1868, when the Meiji Restoration shifted the seat of power from Kyoto to Edo (renamed Tokyo). Japan currently operates under a parliamentary constitutional monarchy, and Tokyo functions as the administrative, cultural, and political center of the nation.",
+      "optimizedClaims": [
+        {
+          "id": "opt-claim-1-1793338428811",
+          "text": "The capital of Japan is Tokyo.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "Authoritative geopolitical records confirm Tokyo as the seat of government and capital city of Japan.",
+          "supportingEvidence": [
+            {
+              "title": "Britannica: Tokyo",
+              "url": "https://www.britannica.com/place/Tokyo",
+              "domain": "britannica.com",
+              "snippet": "Tokyo is the capital of Japan and one of the most populous and influential urban areas in the world.",
+              "sourceType": "encyclopedia",
+              "credibilityScore": 92
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        },
+        {
+          "id": "opt-claim-2-1793338428811",
+          "text": "Beijing is the capital of the People's Republic of China.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "Global consensus identifies Beijing as the political capital of China.",
+          "supportingEvidence": [
+            {
+              "title": "Britannica: Beijing",
+              "url": "https://www.britannica.com/place/Beijing",
+              "domain": "britannica.com",
+              "snippet": "Beijing is the capital of the People's Republic of China.",
+              "sourceType": "encyclopedia",
+              "credibilityScore": 92
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        },
+        {
+          "id": "opt-claim-3-1793338428811",
+          "text": "Tokyo became the capital of Japan in 1868.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "Historical records of the Meiji Restoration confirm the transition of the capital to Edo/Tokyo in 1868.",
+          "supportingEvidence": [
+            {
+              "title": "Meiji Restoration",
+              "url": "https://www.britannica.com/event/Meiji-Restoration",
+              "domain": "britannica.com",
+              "snippet": "The capital was moved from Kyoto to Edo, which was renamed Tokyo.",
+              "sourceType": "encyclopedia",
+              "credibilityScore": 92
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        }
+      ],
+      "overallVerdict": "Prompt optimization achieved a substantial +100% improvement in reliability score by eliminating unsupported claims and anchoring assertions in verifiable consensus.",
+      "improvementDeltaPercent": 100,
+      "comparisonHighlights": [
+        "Factual accuracy improved by reducing contradicted statements from 1 to 0.",
+        "Verification coverage reached 100% with enhanced source grounding.",
+        "Ambiguity eliminated through explicit scoping and precision qualifiers."
+      ]
+    },
+    "processingTimeMs": 3100,
+    "modelUsed": "gemini-3.1-flash-lite"
+  },
+  {
+    "id": "session-1793338419586-2havt",
+    "timestamp": "2026-10-30T05:33:39.586Z",
+    "prompt": "Venus is the closest planet to the Sun, Jupiter is smaller than Earth, and Saturn has no rings. Verify all three claims individually.",
+    "domain": "General Knowledge",
+    "originalResponse": "All three claims provided are factually incorrect. Mercury is the closest planet to the Sun. Jupiter is the largest planet in our solar system, significantly larger than Earth in both diameter and mass. Finally, Saturn is famous for its extensive and complex ring system, which is visible even with small telescopes.",
+    "claims": [
+      {
+        "id": "claim-1-mvuje2u7-lwo",
+        "text": "Venus is the closest planet to the Sun.",
+        "claimType": "entity_relation",
+        "status": "contradicted",
+        "confidence": 99,
+        "hallucinationType": "Factual Contradiction",
+        "reasoning": "Mercury orbits at an average distance of 0.39 AU, while Venus orbits at approximately 0.72 AU.",
+        "correctFact": "Mercury is the closest planet to the Sun.",
+        "supportingEvidence": [],
+        "contradictingEvidence": [
+          {
+            "title": "NASA Solar System Exploration: Mercury",
+            "url": "https://science.nasa.gov/mercury/",
+            "domain": "science.nasa.gov",
+            "snippet": "Mercury is the closest planet to the Sun.",
+            "sourceType": "government",
+            "credibilityScore": 98
+          }
+        ],
+        "claimOrigin": "user_premise",
+        "isCached": false
+      },
+      {
+        "id": "claim-2-mvuje2u8-k9b",
+        "text": "Jupiter is smaller than Earth.",
+        "claimType": "entity_relation",
+        "status": "contradicted",
+        "confidence": 99,
+        "hallucinationType": "Factual Contradiction",
+        "reasoning": "Jupiter is the largest planet in the solar system, whereas Earth is the fifth largest planet.",
+        "correctFact": "Jupiter is significantly larger than Earth, with a diameter about 11 times that of Earth.",
+        "supportingEvidence": [],
+        "contradictingEvidence": [
+          {
+            "title": "NASA Solar System Exploration: Jupiter",
+            "url": "https://science.nasa.gov/jupiter/",
+            "domain": "science.nasa.gov",
+            "snippet": "Jupiter is more than twice as massive as the other planets of our solar system combined.",
+            "sourceType": "government",
+            "credibilityScore": 98
+          }
+        ],
+        "claimOrigin": "user_premise",
+        "isCached": false
+      },
+      {
+        "id": "claim-3-mvuje2u8-vab",
+        "text": "Saturn has no rings.",
+        "claimType": "entity_relation",
+        "status": "contradicted",
+        "confidence": 99,
+        "hallucinationType": "Factual Contradiction",
+        "reasoning": "Saturn's rings are a defining feature of the planet and have been observed by astronomers for centuries.",
+        "correctFact": "Saturn has a massive, prominent ring system composed of ice and rock particles.",
+        "supportingEvidence": [],
+        "contradictingEvidence": [
+          {
+            "title": "NASA Solar System Exploration: Saturn",
+            "url": "https://science.nasa.gov/saturn/",
+            "domain": "science.nasa.gov",
+            "snippet": "Saturn is adorned with a dazzling, complex system of icy rings.",
+            "sourceType": "government",
+            "credibilityScore": 98
+          }
+        ],
+        "claimOrigin": "user_premise",
+        "isCached": false
+      }
+    ],
+    "metrics": {
+      "totalClaims": 3,
+      "supportedCount": 0,
+      "contradictedCount": 3,
+      "unverifiedCount": 0,
+      "verificationCoverage": 100,
+      "hallucinationRate": 100,
+      "reliabilityScore": 0,
+      "formulaExplanation": "Score = max(0, min(100, round([(S × 1.0 + U × 0.35 - C × 1.75) / Total] × 100))) where S=0 supported, U=0 unverified, C=3 contradicted, Total=3. Note: Reliability score measures empirical grounding against retrieved external evidence and should not be construed as infallible mathematical certainty.",
+      "calculationBreakdown": {
+        "baseSupportedWeight": 1,
+        "unverifiedDiscount": 0.35,
+        "contradictedPenalty": 1.75,
+        "rawScore": -175,
+        "normalizedScore": 0
+      }
+    },
+    "optimization": {
+      "originalPrompt": "Venus is the closest planet to the Sun, Jupiter is smaller than Earth, and Saturn has no rings. Verify all three claims individually.",
+      "optimizedPrompt": "Provide an authoritative, evidence-grounded factual correction for: \"Venus is the closest planet to the Sun, Jupiter is smaller than Earth, and Saturn has no rings. Verify all three claims individually.\". Requirements: 1. Directly evaluate each claim individually. 2. Cite authoritative scientific/historical consensus (e.g., NASA, Britannica, W3C) to correct misconceptions. 3. State exact metrics, primary dates, and verified facts.",
+      "critique": {
+        "missingContext": [
+          "Lacks demand for primary institutional source citations",
+          "Open-ended phrasing inviting ungrounded colloquial assertions"
+        ],
+        "ambiguities": [
+          "Did not specify exact observation parameters or verification standards",
+          "Vague reference frame allowing conflation of folklore or misconceptions with fact"
+        ],
+        "insufficientConstraints": [
+          "Absence of explicit instruction to evaluate multiple claims independently",
+          "No epistemic directive to flag and correct unsupported premises"
+        ]
+      },
+      "improvementsApplied": [
+        "Injected explicit requirement for independent claim-by-claim evaluation",
+        "Added myth-debunking directive to guard against hallucination propagation",
+        "Required metric quantification and authoritative institutional consensus",
+        "Enforced explicit epistemic boundaries and primary references"
+      ],
+      "optimizationRationale": "By placing strict evidentiary boundaries and requiring explicit citation anchors, the model is compelled to reference verified consensus rather than relying on generative associative memory."
+    },
+    "comparison": {
+      "originalMetrics": {
+        "relevanceScore": 90,
+        "completenessScore": 65,
+        "clarityScore": 84,
+        "evidenceSupportScore": 0,
+        "factualConsistencyScore": 0,
+        "structuralScore": 80,
+        "reliabilityScore": 0,
+        "hallucinationRate": 100,
+        "claimCount": 3,
+        "supportedCount": 0,
+        "contradictedCount": 3,
+        "unverifiedCount": 0
+      },
+      "optimizedMetrics": {
+        "relevanceScore": 97,
+        "completenessScore": 95,
+        "clarityScore": 95,
+        "evidenceSupportScore": 100,
+        "factualConsistencyScore": 100,
+        "structuralScore": 96,
+        "reliabilityScore": 100,
+        "hallucinationRate": 0,
+        "claimCount": 3,
+        "supportedCount": 3,
+        "contradictedCount": 0,
+        "unverifiedCount": 0
+      },
+      "optimizedResponse": "Each of the three claims provided is factually incorrect based on established astronomical consensus: 1. Venus is not the closest planet to the Sun; Mercury holds this position, orbiting at an average distance of 57.9 million kilometers, compared to Venus’s 108.2 million kilometers (NASA). 2. Jupiter is significantly larger than Earth. According to NASA, Jupiter is the solar system's largest planet, with an equatorial radius of 71,492 km, roughly 11 times that of Earth (6,371 km). 3. Saturn possess an extensive and complex ring system. First observed by Galileo Galilei in 1610 and later resolved by Christiaan Huygens in 1655, these rings consist primarily of water ice and rock particles. Modern observations from the Cassini-Huygens mission confirm the rings span up to 282,000 kilometers from the planet.",
+      "optimizedClaims": [
+        {
+          "id": "opt-claim-1-1793338419586",
+          "text": "Mercury is the closest planet to the Sun.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "NASA planetary fact sheets confirm Mercury's average orbital distance of 0.39 AU is the smallest among all planets.",
+          "supportingEvidence": [
+            {
+              "title": "NASA Solar System Exploration: Mercury",
+              "url": "https://solarsystem.nasa.gov/planets/mercury/overview/",
+              "domain": "solarsystem.nasa.gov",
+              "snippet": "Mercury is the closest planet to the Sun.",
+              "sourceType": "government",
+              "credibilityScore": 98
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        },
+        {
+          "id": "opt-claim-2-1793338419586",
+          "text": "Jupiter is significantly larger than Earth.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "Jupiter's equatorial radius is approximately 11 times larger than Earth's, a fact consistently cited in astronomical reference materials.",
+          "supportingEvidence": [
+            {
+              "title": "NASA Planet Comparison: Jupiter vs Earth",
+              "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+              "domain": "nssdc.gsfc.nasa.gov",
+              "snippet": "Jupiter equatorial radius is 71,492 km; Earth is 6,371 km.",
+              "sourceType": "government",
+              "credibilityScore": 98
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        },
+        {
+          "id": "opt-claim-3-1793338419586",
+          "text": "Saturn has an extensive ring system.",
+          "claimType": "general_factual",
+          "status": "supported",
+          "confidence": 96,
+          "hallucinationType": "None",
+          "reasoning": "Scientific consensus since the 17th century, solidified by modern spacecraft data, confirms Saturn's complex ring structure.",
+          "supportingEvidence": [
+            {
+              "title": "NASA Saturn Science",
+              "url": "https://www.nasa.gov/mission_pages/cassini/main/index.html",
+              "domain": "nasa.gov",
+              "snippet": "Saturn is a gas giant with a complex, prominent ring system.",
+              "sourceType": "government",
+              "credibilityScore": 98
+            }
+          ],
+          "contradictingEvidence": [],
+          "claimOrigin": "ai_response"
+        }
+      ],
+      "overallVerdict": "Prompt optimization achieved a substantial +100% improvement in reliability score by eliminating unsupported claims and anchoring assertions in verifiable consensus.",
+      "improvementDeltaPercent": 100,
+      "comparisonHighlights": [
+        "Factual accuracy improved by reducing contradicted statements from 3 to 0.",
+        "Verification coverage reached 100% with enhanced source grounding.",
+        "Ambiguity eliminated through explicit scoping and precision qualifiers."
+      ]
+    },
+    "processingTimeMs": 4439,
+    "modelUsed": "gemini-3.1-flash-lite"
+  }
+]
